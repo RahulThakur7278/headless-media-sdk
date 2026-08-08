@@ -1,0 +1,16 @@
+{
+  "name": "media-core",
+  "version": "1.0.0",
+  "description": "Framework-agnostic media SDK for Pexels API — zero UI, pure TypeScript",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["media", "sdk", "pexels", "headless"],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}

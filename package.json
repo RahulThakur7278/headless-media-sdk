@@ -1,0 +1,21 @@
+{
+  "name": "headless-media-sdk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A headless media SDK ecosystem: framework-agnostic core, platform wrappers, and headless UI components",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "build:core": "npm run build -w packages/media-core",
+    "build:react": "npm run build -w packages/media-react",
+    "build:ui": "npm run build -w packages/media-ui-react",
+    "dev": "npm run dev -w apps/web",
+    "typecheck": "tsc --build",
+    "clean": "rm -rf packages/*/dist apps/*/dist node_modules/.cache"
+  },
+  "keywords": ["media", "sdk", "headless", "pexels", "react"],
+  "license": "MIT"
+}
