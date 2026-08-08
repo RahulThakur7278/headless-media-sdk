@@ -1,0 +1,23 @@
+{
+  "name": "media-ui-react",
+  "version": "1.0.0",
+  "description": "Headless React UI components — Grid, Lightbox, ReelSwiper. Zero knowledge of media-core.",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.5.0"
+  },
+  "license": "MIT"
+}

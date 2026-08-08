@@ -1,0 +1,23 @@
+{
+  "name": "media-react",
+  "version": "1.0.0",
+  "description": "React wrapper for media-core SDK — provider + hooks, zero business logic",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  },
+  "dependencies": {
+    "media-core": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "react": "^18.2.0",
+    "typescript": "^5.5.0"
+  },
+  "license": "MIT"
+}
